@@ -1,0 +1,77 @@
+/* General styling for the login page */
+.login-form-wrapper {
+  max-width: 300px; /* Adjust based on your design */
+  margin: auto;
+}
+
+/* Add more styles as needed */
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+/* This ensures the sider and content cover full height of the viewport */
+.ant-layout {
+  height: 100vh;
+}
+
+.login-page {
+  background-color: #ffffff !important;
+  max-width: 400px; /* Adjust based on your design */
+  margin: auto;
+  padding-top: 50px; /* Adjust based on your design */
+}
+
+/* Styling for the header section of the login form */
+.login-form-header {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Space between the header and form fields */
+}
+
+/* Styling for the logo within the header */
+.login-form-header .logo img {
+  width: 100px; /* Adjust based on your logo size */
+  margin-bottom: 20px;
+}
+
+/* Adjust the title size as needed */
+.login-form-header h1 {
+  margin-bottom: 20px; /* Space below the title */
+  font-size: 24px; /* Adjust based on your design */
+  color: #333; /* Adjust based on your design */
+}
+
+/* Styling for the form itself */
+.login-form {
+  padding: 20px; /* Padding around the form */
+  border: 1px solid #ebedf0; /* Border color from Ant Design */
+  border-radius: 8px; /* Optional: for rounded corners */
+  background-color: #fff; /* Adjust based on your design */
+}
+
+/* Styling for the input fields */
+.login-form .ant-form-item {
+  margin-bottom: 10px; /* Adjust based on your spacing preference */
+}
+
+/* Styling for the 'Remember me' checkbox and 'Forgot password' link */
+.login-form .ant-form-item-with-help {
+  margin-bottom: 10px; /* Adjust based on your spacing preference */
+}
+
+.login-form-forgot {
+  float: right; /* Aligns the forgot password link to the right */
+  color: #1890ff; /* Color from Ant Design */
+}
+
+/* Styling for the login button */
+.login-form-button {
+  width: 100%; /* Makes the button full width */
+  margin-bottom: 10px; /* Space below the button */
+}
+
+/* Additional styles for registration prompt */
+.login-form-register {
+  text-align: center; /* Centers the registration prompt */
+}

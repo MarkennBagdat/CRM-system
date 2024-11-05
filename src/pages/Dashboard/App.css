@@ -1,0 +1,108 @@
+/* Сброс стилей для радиокнопок, установка общей границы для группы */
+.ant-radio-group {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  overflow: hidden;
+  width: auto;
+}
+
+/* Стили для каждой радиокнопки */
+.ant-radio-button-wrapper {
+  padding: 5px 16px;
+  height: 32px; /* Задаем высоту */
+  border: none; /* Убираем границы кнопок */
+  flex: 1; /* Растягиваем кнопки на равную ширину */
+  justify-content: center; /* Выравнивание текста по центру */
+  align-items: center; /* Выравнивание по центру по вертикали */
+  display: flex; /* Для правильного выравнивания текста */
+}
+
+/* Стиль для кнопки при её выборе */
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: #1890ff; /* Цвет текста для активной кнопки */
+  background: #e6f7ff; /* Цвет фона для активной кнопки */
+  border-color: #1890ff; /* Цвет границы для активной кнопки */
+  z-index: 1; /* Поднимаем активную кнопку над остальными */
+}
+
+/* Стили для группы чекбоксов, выравнивание элементов в столбец */
+.my-custom-checkbox-group .ant-checkbox-group-item {
+  display: block;
+  width: 100%; /* Set width to 100% to fill the container */
+}
+
+/* Стили для чекбоксов */
+.my-custom-checkbox-group .ant-checkbox-wrapper {
+  display: flex;
+  justify-content: center; /* Center checkbox text horizontally */
+  align-items: center; /* Center checkbox text vertically */
+  padding: 5px 16px;
+  height: 43px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  border-right: none; /* Remove the right border */
+  opacity: 1;
+  height: 43px; /* Match the height in the image */
+}
+
+.my-custom-checkbox-group .ant-checkbox-wrapper:last-child {
+  border-right: 1px solid #d9d9d9;
+}
+
+.my-custom-checkbox-group .ant-checkbox-wrapper span {
+  pointer-events: none; /* Disable pointer events to prevent text selection */
+}
+
+.ant-row .ant-col {
+  padding: 0px;
+}
+
+/* Стили для текста внутри чекбоксов */
+.ant-checkbox-wrapper span {
+  font-size: 14px; /* Или ваш размер шрифта */
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.my-custom-checkbox-group .ant-checkbox {
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+/* Custom style for the Checkbox group */
+.my-custom-checkbox-group .ant-checkbox-group-item {
+    display: block;
+    margin-bottom: 12px; /* Adjust the space between each item */
+  }
+  
+  /* Hide the checkbox itself */
+  .my-custom-checkbox-group .ant-checkbox-wrapper .ant-checkbox {
+    display: none;
+  }
+  
+  /* Style for the text when checkbox is not checked */
+  .my-custom-checkbox-group .ant-checkbox-wrapper span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.65); /* default text color */
+  }
+  
+  /* Style for the text when checkbox is checked */
+  .my-custom-checkbox-group .ant-checkbox-wrapper-checked .ant-checkbox + span {
+    border: rgba(3, 149, 255, 1); /* Highlight text in blue */
+    color: rgba(3, 149, 255, 1);
+  }
+  
+
+  

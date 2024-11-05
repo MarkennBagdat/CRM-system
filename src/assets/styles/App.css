@@ -1,0 +1,873 @@
+.header_clients {
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  background: rgba(255, 255, 255, 1);
+}
+
+.ant-radio-button-wrapper {
+  padding: 5px 16px;
+  gap: 4px;
+  border-radius: 2px 0px 0px 2px;
+  border-right: 1px solid #d9d9d9; /* Правая граница для всех, кроме последней кнопки */
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+/* Убрать правую границу для последней кнопки */
+.ant-radio-button-wrapper:last-child {
+  border-right: 0px;
+}
+
+/* Если вам нужно установить конкретную ширину */
+/* .ant-radio-group {
+  width: 158.83px;
+} */
+
+.user-info_sider {
+  display: flex;
+  justify-content: space-between;
+  padding-left:24px ;
+}
+
+.user-name_sider {
+  margin-bottom: 5px;
+}
+
+.user-role_sider {
+  color: gray;
+}
+
+
+/* Clients */
+
+.service-highlight {
+  border: 1px solid rgba(82, 196, 26, 1);
+  background-color: rgba(246, 255, 237, 1);
+  color: rgba(82, 196, 26, 1);
+  padding: 1px 8px;
+  border-radius: 2px;
+  margin-bottom: 3px;
+  margin-right: 8px;
+  max-width: 50px;
+  display: ruby; /* removed quotes */
+}
+
+.search-container {
+  margin: 16px 45px;
+  display: flex; /* removed quotes */
+  align-items: center;
+  justify-content: space-between; /* This ensures elements are spaced evenly */
+}
+
+.search-input-container {
+  display: flex; /* Ensures label and input are inline */
+  align-items: center; /* Vertically aligns items in this container */
+}
+
+.search-span {
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.search-part {
+  width: 250px;
+  border-radius: 1px;
+  outline: none;
+  box-shadow: none;
+}
+
+.search-outline {
+  color: #d9d9d9;
+}
+
+.icon-container {
+  display: flex;
+  gap: 16px; /* Adjust this value as needed to space the icons appropriately */
+}
+
+.search-icon {
+  font-size: 16px;
+}
+
+.clients-table {
+  padding-top: 20px;
+}
+
+.chat-button-container {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chat-button {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(3, 149, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item-feedback {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.samebutton {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(3, 149, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* App.css */
+
+.modal-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000; /* Assuming you want standard black text */
+}
+
+.form-modal {
+  padding: 16px 24px;
+  top: 20px;
+}
+
+.form-item {
+  margin-bottom: 16px;
+}
+
+.form-button-row {
+  margin-top: 24px;
+  text-align: right;
+}
+
+.radio-group-full-width {
+  width: 100%;
+}
+
+.save-button {
+  width: 180px;
+  height: 32px;
+  padding: 5px 12px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(
+    3,
+    149,
+    255,
+    1
+  ); /* Assuming you want this color as background */
+  color: white; /* Adjust text color as needed */
+}
+
+.close-button {
+  width: 180px;
+  height: 32px;
+  padding: 5px 12px;
+  border-radius: 2px;
+  border: 1px solid rgba(103, 101, 101, 1);
+  background-color: #fff;
+  color: rgba(103, 101, 101, 1); /* Adjust text color to match the border */
+}
+
+.notes-month {
+  text-align: center;
+  font-size: 12px;
+}
+
+.notes-month section {
+  background: #e6f7ff;
+  border-radius: 4px;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+.employees_head {
+  margin-left: 50px;
+}
+
+.search-container-em,
+.employee-choice {
+  margin: 10px 50px 10px 0px;
+  display: flex; /* removed quotes */
+  align-items: center;
+  justify-content: space-between; /* This ensures elements are spaced evenly */
+}
+
+.search-container-in {
+  margin: 20px 50px;
+  display: flex; /* removed quotes */
+  align-items: center;
+  justify-content: space-between; /* This ensures elements are spaced evenly */
+}
+
+.selected-empl {
+  border: none;
+  gap: 16px;
+}
+
+.tabs {
+  margin: 0 50px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.tab-button {
+  border: 1px solid #d9d9d9;
+  background-color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button.active {
+  border: 1px solid #1890ff;
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+
+.tab-button:not(.active):hover {
+  background-color: #f0f0f0;
+}
+
+.report-filter {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 50px 20px;
+}
+
+.choice_em_sh {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.choice_period {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.choice_period_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio_choice {
+  border: none;
+}
+
+.income_sum {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  gap: 10px;
+
+  margin-top: 16px;
+  align-items: center;
+}
+
+.income_input {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 260px;
+}
+
+.choice_period {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.income_input {
+  width: 100px;
+}
+
+.ant-modal-header {
+  box-shadow: 0px -1px 0px 0px rgba(240, 240, 240, 1) inset;
+}
+
+.ant-modal-title {
+  padding-bottom: 16px;
+}
+
+.save-button {
+  width: 155px;
+  border-radius: 2px;
+}
+
+.modal-footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* Adjust this value as needed */
+  margin-top: 16px; /* Adjust this value if you need more or less space above the buttons */
+}
+
+.save-button,
+.close-button {
+  padding: 5px 12px;
+  gap: 4px;
+  border-radius: 2px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  width: 180px; /* Adjust the width as needed */
+}
+
+.custom-input {
+  padding: 5px 12px;
+  gap: 4px;
+  border-radius: 2px;
+  border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.custom-select .ant-select-selector {
+  padding: 5px 12px !important;
+  gap: 4px;
+  border-radius: 2px !important;
+  border: 1px solid rgba(217, 217, 217, 1) !important;
+}
+
+.custom-select {
+  gap: 4px !important;
+}
+
+.modal-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000; /* Assuming you want standard black text */
+}
+
+h3.section-title {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 8px 0;
+  border-radius: 4px; /* Optional, for rounded corners */
+}
+
+p.section-description {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  padding: 5px 0;
+  border-radius: 4px; /* Optional, for rounded corners */
+}
+
+/* .settings-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: start;
+  gap: 15px;
+} */
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.custom-input,
+.custom-select .ant-select-selector {
+  height: 32px;
+  padding: 5px 12px;
+  gap: 4px;
+  border-radius: 2px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  opacity: 1; /* Assuming this should not be zero, as zero makes it invisible */
+}
+
+.ant-btn {
+  border-radius: 2px !important;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff ;
+  border-color: #1890ff ;
+}
+
+.settings-divider {
+  margin: 24px 0 !important;
+}
+
+
+
+.save-button {
+  border-radius: 2px;
+}
+
+.custom-dropdown-menu {
+  padding: 10px;
+}
+
+.dropdown-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-select .ant-select-selector {
+  display: flex;
+  align-items: center;
+}
+
+.custom-button {
+  width: 139px;
+  height: 38px;
+  padding: 5px 12px 5px 12px;
+  gap: 4px;
+  border-radius: 2px;
+  opacity: 0px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  background: var(--Color, rgba(255, 255, 255, 1));
+}
+
+.custom-input {
+  width: 100%;
+}
+
+.box-buttons,
+.body-type-buttons,
+.payment-method-buttons,
+.discount-buttons {
+  display: flex;
+}
+
+.box-buttons button,
+.body-type-buttons button,
+.payment-method-buttons button,
+.discount-buttons button {
+  flex: 1;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  padding: 5px 16px;
+}
+
+.discount-buttons .ant-input-number {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.save-button {
+  background-color: #1890ff;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.overview-title {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.overview-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  height: 100%;
+}
+
+.text_card {
+  flex: 1;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.card-title {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.45);
+  margin-bottom: 16px;
+}
+
+.income-amount {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 16px;
+}
+
+.comparison-text {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.45);
+  margin-bottom: 8px;
+}
+
+.green-arrow {
+  color: green;
+}
+
+.red-arrow {
+  color: red;
+}
+
+.select-period {
+  flex: 1;
+  max-width: 115px;
+  width: 100%;
+}
+
+.secondary-amount {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.chart-placeholder {
+  height: 60px;
+  margin: 12px 0;
+}
+
+.extra-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.extra-content span {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.extra-content .active {
+  color: #1890ff;
+}
+
+.range_picker {
+  border-radius: 1px;
+  padding: 4px 12px;
+  max-height: 30px;
+  height: 100%;
+  max-width: 256px;
+  width: 100%;
+}
+
+.index-circle {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ff4d4f;
+  color: white;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.index-1 {
+  background-color: #ff4d4f;
+}
+
+.index-2 {
+  background-color: #ff7875;
+}
+
+.index-3 {
+  background-color: #ffa39e;
+}
+
+.index-4 {
+  background-color: #ffbb96;
+}
+
+.index-5 {
+  background-color: #ffd591;
+}
+
+.index-6 {
+  background-color: #ffe58f;
+}
+
+.index-7 {
+  background-color: #fff566;
+}
+
+.overview-section {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.customer-count-section,
+.service-rating-section {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 16px 24px;
+  background-color: #fff;
+  box-shadow: 1px rgba(0, 0, 0, 0.1);
+}
+
+.h3_count {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.p-amount {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+}
+
+.h3_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.h4_circle{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filter-buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-btn{
+  border: 1px solid rgba(217, 217, 217, 1);
+  background-color: #fff;
+}
+
+.filter-btn .active{
+  border: 1px solid rgba(24, 144, 255, 1);
+  background-color: rgba(24, 144, 255, 1);
+}
+
+/* REPORT */
+
+.header-section {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f0f2f5;
+}
+
+.header-section .content {
+  display: inline-block;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sider_items {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+  transition: width 0.2s;
+  background-color: #fff;
+  border-right: 1px solid #f0f0f0;
+  z-index: 1000;
+}
+
+.sider_items.collapsed {
+  width: 80px;
+}
+
+.sider_items:not(.collapsed) {
+  width: 18%;
+}
+
+@media (max-width: 768px) {
+  .sider_items {
+    width: 80px;
+  }
+
+  .sider_items:not(.collapsed) {
+    width: 200px;
+  }
+}
+
+.user-info_sider {
+  padding: 16px;
+}
+
+.user-details_sider {
+  margin-bottom: 16px;
+}
+
+.logout-button_sider {
+  text-align: center;
+}
+
+
+/* Основные стили для контейнера */
+.main-layout {
+  display: flex;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.content {
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1200px; /* Максимальная ширина для больших экранов */
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Адаптивные стили */
+@media (max-width: 1200px) {
+  .content-container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  .content-container {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    max-width: 600px;
+  }
+
+  .sider {
+    display: none; /* Скрываем сайдер на маленьких экранах */
+  }
+
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .content {
+    margin-top: 64px; /* Отступ для фиксированного заголовка */
+  }
+}
+
+@media (max-width: 576px) {
+  .content-container {
+    max-width: 100%;
+    padding: 12px;
+  }
+}
+
+
+.setting-logout{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.custom-input {
+  border: 1px solid #d9d9d9;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-input.active {
+  background-color: #1890ff;
+  color: white;
+  border: 1px solid #1890ff;
+}
+
+.custom-input.inactive {
+  background-color: white;
+  color: black;
+  border: 1px solid #d9d9d9;
+}
